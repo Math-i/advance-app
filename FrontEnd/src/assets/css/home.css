@@ -1,0 +1,83 @@
+.home_container
+{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(133, 231, 76, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main_head
+{
+    background-image: url("../images/home.avi");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 30px darkgreen;
+}
+.box
+{
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.main_head .first_line
+{
+    color: rgb(235, 244, 235);
+    font-size: 32px;
+    font-weight: 900;
+}
+.main_head .second_line
+{
+    color: rgb(235, 245, 235);
+    margin-top: 30px;
+    font-weight: 600;
+    width: 70%;
+    text-align: center;
+}
+
+.main_head .button_home
+{
+    margin-top: 30px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: darkgreen;
+    font-size: 15px;
+    background-color: rgba(133, 231, 76, 0.4);    border: none;
+    transition: 0.3s ease;
+}
+.main_head .button_home:hover{
+    box-shadow: 2px 2px 15px rgb(73, 148, 4);
+    color: rgb(147, 255, 85);
+    background-color: darkgreen;
+}
+.main2
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    top: 430px;
+    padding: 0px 50px;
+    justify-content: space-between;
+}
+
+.main2 .small_box:hover{
+    
+    height: 300px;
+    width: 450px;
+}
+.content
+{
+    height: 1000px;
+    width: 100%;
+}

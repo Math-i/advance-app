@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.logo{
+    height: 11vh;
+    margin-left: -25px;
+}
+
+.navbar
+{
+    padding:0 25px ;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(133, 231, 76, 0.8);
+    box-shadow: 3px 3px 20px rgb(16, 108, 16);
+}
+
+.navbar .menu .list
+{
+    display: flex;
+}
+
+.navbar .menu .list .lists{    
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.lists .lin{ 
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.lists .lin:hover{
+    color: white;
+}
